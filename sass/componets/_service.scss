@@ -1,0 +1,33 @@
+.services {
+    grid-column: col-start 1 / col-end;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 5rem;
+
+    font-size: 1.6rem;
+    text-align: center;
+    -webkit-hyphens: auto;
+
+    &__container {
+        border-radius: .1rem;
+        color: #777;
+    }
+
+    &__info{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 200;
+        background-image: linear-gradient(to right, rgb(50, 182, 205),rgb(50, 205, 50));
+        -webkit-background-clip: text;
+        color: transparent;
+        text-transform: capitalize;
+        font-weight: 200;
+    }
+    &__icon {
+        width: 10rem;
+        height: 10rem;
+        fill: #32b6cde6;
+    }
+}   
+

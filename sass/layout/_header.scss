@@ -1,0 +1,99 @@
+.header {
+    grid-column: full-start / full-end;
+    background-image: linear-gradient(to right,
+                        rgba(50, 182, 205, 0.9),
+                        rgba(50, 205, 50, 0.9)),
+                    url(../images/background.jpg);
+                    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10rem;
+    font-size: 1.6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__items {
+        width: 70rem;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    &__links:link,
+    &__links::before,
+    &__links::after,
+    &__links:visited {
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        transition: all .1s;
+        padding-bottom: .5rem;
+    }
+    &__links:hover {
+        border-bottom: .2rem solid #fff;
+    }
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    margin-left: 2rem;
+
+}
+
+.text-box {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.heading-primary {
+    font-size: 5rem;
+    font-weight: 50;
+    text-transform: uppercase;
+    word-spacing: 1rem;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+.btn:link,
+.btn::before,
+.btn::after,
+.btn:visited{  
+    text-decoration: none;
+
+}
+
+
+
+
+.book-now {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    padding: 1rem 5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: .2rem solid #fff;
+
+    &:hover {
+        background-color: #fff;
+        color: var(--sea-green);
+    }
+}
+
+
+

@@ -1,0 +1,51 @@
+.footer {
+    grid-column: full-start / -1;
+    background-color: #031829;
+    padding: 5rem 0;
+    color: #f0f0f0;
+    font-size: 1.6rem;
+
+    &__list {
+        list-style: none;
+        text-decoration: none;
+        
+
+        &-item {
+            text-transform: capitalize;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                color: #32cd32e6;
+                
+            }
+        }
+    }
+
+    &__header {
+        font-size: 2rem;
+        color: #32b6cde6;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+
+        &:hover {
+            color: #fff;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.footer-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.img-logo {
+    margin: 3rem auto;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+}
