@@ -1,22 +1,29 @@
 .footer {
     grid-column: full-start / -1;
-    background-color: #031829;
+    
+    height: 23rem;
     padding: 5rem 0;
     color: #f0f0f0;
     font-size: 1.6rem;
+    background-image: linear-gradient(to bottom,
+                        rgba(3, 24, 41, 0.97),
+                        rgba(3, 24, 41, 0.97)),
+                    url(../images/gallery15.jpg);
+    background-size: cover;
+    background-position: center;
+                    
 
     &__list {
         list-style: none;
         text-decoration: none;
-        
-
+        text-align: center;
         &-item {
             text-transform: capitalize;
             text-decoration: none;
             color: #fff;
 
             &:hover {
-                color: #32cd32e6;
+                color: #32b6cde6;
                 
             }
         }
@@ -26,7 +33,7 @@
         font-size: 2rem;
         color: #32b6cde6;
         text-transform: uppercase;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
 
         &:hover {
             color: #fff;
@@ -43,9 +50,9 @@
     
 }
 
-.img-logo {
-    margin: 3rem auto;
-    display: block;
-    width: 4rem;
-    height: 4rem;
+.footer-header {
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 0 auto;
+
 }

@@ -62,7 +62,7 @@ html {
   margin-top: 15rem; }
 
 .heading-primary {
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-weight: 50;
   text-transform: uppercase;
   word-spacing: 1rem;
@@ -522,24 +522,28 @@ html {
 
 .footer {
   grid-column: full-start / -1;
-  background-color: #031829;
+  height: 23rem;
   padding: 5rem 0;
   color: #f0f0f0;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  background-image: linear-gradient(to bottom, rgba(3, 24, 41, 0.97), rgba(3, 24, 41, 0.97)), url(../images/gallery15.jpg);
+  background-size: cover;
+  background-position: center; }
   .footer__list {
     list-style: none;
-    text-decoration: none; }
+    text-decoration: none;
+    text-align: center; }
     .footer__list-item {
       text-transform: capitalize;
       text-decoration: none;
       color: #fff; }
       .footer__list-item:hover {
-        color: #32cd32e6; }
+        color: #32b6cde6; }
   .footer__header {
     font-size: 2rem;
     color: #32b6cde6;
     text-transform: uppercase;
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
     .footer__header:hover {
       color: #fff;
       transform: scale(1.1); }
@@ -550,8 +554,7 @@ html {
   justify-content: space-around;
   align-items: center; }
 
-.img-logo {
-  margin: 3rem auto;
-  display: block;
-  width: 4rem;
-  height: 4rem; }
+.footer-header {
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 0 auto; }
