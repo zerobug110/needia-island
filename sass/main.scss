@@ -2,6 +2,7 @@
 @import "layout/__header";
 @import "componets/_service";
 @import "base/__utilities"; 
+@import "abstracts/_mixins";
 @import "layout/__explore-park";
 @import "layout/__places";
 @import "layout/__plan";
@@ -9,4 +10,4 @@
 @import "layout/__accommodation.scss";
 @import "layout/__transportation";
 @import "layout/__contact.scss";
-@import "layout/__footer.scss";
+@import "layout/_footer";

@@ -1,0 +1,13 @@
+// MEDIA QUERY MANAGER
+
+/*
+0 - 600PX:  Phone
+600 - 900px: Tablet portriat
+900 - 1200px: Tablet landscape
+[1200 - 1800] is whter the normal style apply
+1800px or bigger: big desktop
+*/
+
+@mixin respond-phone{
+    @media (max-width: 600px) { @content };
+}

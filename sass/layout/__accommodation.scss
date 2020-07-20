@@ -97,6 +97,7 @@
                     rgba(50, 182, 205, 0.9),
                     rgba(50, 205, 50, 0.9));
     color: #fff;
+    text-align: center;
     display: flex;
     justify-content: space-around;
     padding: 2rem 2rem;
@@ -106,7 +107,7 @@
 
     & > * {
         border-right: .1rem solid #f0f0f0;
-        padding: 0 2rem;
+        padding: 0 4rem;
     }
 
     &__text {

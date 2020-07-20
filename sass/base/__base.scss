@@ -17,6 +17,14 @@ html{
     line-height: 1.7;
     font-weight: 400;
     color: #333;
+
+    // @media (max-width: 600px){
+    //     font-size: 50%;
+    // }
+
+    // @include respond-phone {
+    //     font-size: 50%;
+    // }
 }
 .main-container {
     display: grid;

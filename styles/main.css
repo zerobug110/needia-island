@@ -129,6 +129,13 @@ html {
   margin-bottom: 2rem;
   width: 23rem; }
 
+/*
+0 - 600PX:  Phone
+600 - 900px: Tablet portriat
+900 - 1200px: Tablet landscape
+[1200 - 1800] is whter the normal style apply
+1800px or bigger: big desktop
+*/
 .composition {
   grid-column: col-start 1 / col-end;
   font-size: 1.6rem;
@@ -296,13 +303,14 @@ html {
 .price {
   background-image: linear-gradient(to right, rgba(50, 182, 205, 0.9), rgba(50, 205, 50, 0.9));
   color: #fff;
+  text-align: center;
   display: flex;
   justify-content: space-around;
   padding: 2rem 2rem;
   text-transform: uppercase; }
   .price > * {
     border-right: .1rem solid #f0f0f0;
-    padding: 0 2rem; }
+    padding: 0 4rem; }
   .price__text {
     display: block; }
   .price__amount {
@@ -522,11 +530,10 @@ html {
 
 .footer {
   grid-column: full-start / -1;
-  height: 23rem;
   padding: 5rem 0;
   color: #f0f0f0;
   font-size: 1.6rem;
-  background-image: linear-gradient(to bottom, rgba(3, 24, 41, 0.97), rgba(3, 24, 41, 0.97)), url(../images/gallery15.jpg);
+  background-image: linear-gradient(to bottom, rgba(3, 24, 41, 0.95), rgba(3, 24, 41, 0.95)), url(../images/gallery15.jpg);
   background-size: cover;
   background-position: center; }
   .footer__list {
@@ -549,10 +556,9 @@ html {
       transform: scale(1.1); }
 
 .footer-nav {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 5rem; }
 
 .footer-header {
   font-size: 3rem;
