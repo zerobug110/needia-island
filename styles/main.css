@@ -1,3 +1,13 @@
+/*
+0 - 600PX:  Phone
+600 - 900px: Tablet portriat
+900 - 1200px: Tablet landscape
+[1200 - 1800] is whter the normal style apply
+1800px or bigger: big desktop
+
+
+1em = 16px
+*/
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +23,15 @@ html {
   line-height: 1.7;
   font-weight: 400;
   color: #333; }
+  @media screen and (max-width: 37.5em) {
+    html {
+      font-size: 50%; } }
+  @media screen and (max-width: 56.25em) {
+    html {
+      font-size: 60%; } }
+  @media screen and (max-width: 75rem) {
+    html {
+      font-size: 70%; } }
 
 .main-container {
   display: grid;
@@ -129,13 +148,6 @@ html {
   margin-bottom: 2rem;
   width: 23rem; }
 
-/*
-0 - 600PX:  Phone
-600 - 900px: Tablet portriat
-900 - 1200px: Tablet landscape
-[1200 - 1800] is whter the normal style apply
-1800px or bigger: big desktop
-*/
 .composition {
   grid-column: col-start 1 / col-end;
   font-size: 1.6rem;
@@ -168,9 +180,6 @@ html {
   .composition__box-3 {
     grid-column: 2 / span 5;
     grid-row: 3 / span 5; }
-
-.places {
-  grid-column: col-start 1 / col-end; }
 
 .place {
   grid-column: 1 / -1;
@@ -461,9 +470,10 @@ html {
   padding: 1.5rem 0; }
 
 .form {
+  color: #fff;
   padding: 5rem 0; }
   .form > *:not(:last-child) {
-    color: #555;
+    color: #fff;
     font-size: 1.6rem;
     display: block;
     background-color: transparent;

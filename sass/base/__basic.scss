@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -17,18 +18,28 @@ html{
     line-height: 1.7;
     font-weight: 400;
     color: #333;
+    
+   @include respond(phone) {
+       font-size: 50%;
+   }
 
-    // @media (max-width: 600px){
-    //     font-size: 50%;
-    // }
+   @include respond(tab-port) {
+       font-size: 60%;
+   }
 
-    // @include respond-phone {
-    //     font-size: 50%;
-    // }
+   @include respond(tab-land) {
+       font-size: 70%;
+   }
+
+   @include respond(big-dektop) {
+       font-size: 80%;
+   }
 }
+
 .main-container {
     display: grid;
     grid-template-columns: [full-start] 5rem 1fr repeat(8,[col-start] minmax(min-content, 14rem))[col-end] 1fr 5rem[ful-end];
     grid-template-rows: 100vh repeat(7, min-content);
+
 }
 

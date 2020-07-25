@@ -13,7 +13,6 @@
     height: 50rem;
     width: 100%;
 
-
 }
 
 
@@ -38,9 +37,11 @@
     padding: 1.5rem 0;
 }
 .form {
+    color: #fff;
     padding: 5rem 0;
+
     & > *:not(:last-child){
-        color: #555;
+        color: #fff;
         font-size: 1.6rem;
         display: block;
         background-color: transparent;

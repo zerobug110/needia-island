@@ -6,10 +6,13 @@
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     grid-gap: 5rem;
 
+
     &__img-container {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(7, 5rem);
+
+        
   
     }
 
