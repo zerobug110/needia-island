@@ -23,7 +23,7 @@ html{
     
 
     @include respond(tab-land) {
-        font-size: 56.25%; //1rem  = 9px, 9/16 =50%
+        font-size: 56.25%; //1rem  = 9px, 9/16 = 50%
     }
 
     @include respond(tab-port) {
@@ -40,5 +40,14 @@ html{
     grid-template-columns: [full-start] 5rem 1fr repeat(8,[col-start] minmax(min-content, 14rem))[col-end] 1fr 5rem[ful-end];
     grid-template-rows: 100vh repeat(7, min-content);
 
+    @include respond(phone) {
+        grid-template-rows: 60vh repeat(7, min-content);
+    }
+    @include respond(tab-port) {
+        grid-template-rows: 70vh repeat(7, min-content);
+    }
+    @include respond(tab-land) {
+        grid-template-rows: 80vh repeat(7, min-content);
+    }
 }
 

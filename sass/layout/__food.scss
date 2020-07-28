@@ -20,6 +20,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
         grid-gap: 5rem;
+
     }
 
     &__type-box {
@@ -33,10 +34,10 @@
         border-bottom-left-radius: 4rem;
         border-bottom-right-radius: 4rem;
         
-        @include respond(tab-land) {
-            height: 30rem;
-        
+        @include respond(phone) {
+            height: 28rem;
         }
+
     }
 
     &__type {

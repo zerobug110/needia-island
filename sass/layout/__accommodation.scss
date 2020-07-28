@@ -15,8 +15,11 @@
     }
     
     &__img-box {
-        height: 40rem;
+        height: 41rem;
 
+        @include respond(phone) {
+            height: 35rem;
+        }
     }
 
 
@@ -26,7 +29,7 @@
     }
 
     &__info {
-        height: 40rem;
+        height: 41rem;
         background-color: #f0f0f0;
         font-size: 1.6rem;
 
@@ -85,7 +88,7 @@
     list-style: none;
     font-style: italic;
     color: #777;
-    margin: 0 2rem;
+    margin: 0 1rem;
 
     &__items {
         padding: .4rem 0;

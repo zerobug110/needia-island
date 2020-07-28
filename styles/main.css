@@ -34,6 +34,15 @@ html {
   display: grid;
   grid-template-columns: [full-start] 5rem 1fr repeat(8, [col-start] minmax(min-content, 14rem)) [col-end] 1fr 5rem [ful-end];
   grid-template-rows: 100vh repeat(7, min-content); }
+  @media screen and (max-width: 37.5em) {
+    .main-container {
+      grid-template-rows: 60vh repeat(7, min-content); } }
+  @media screen and (max-width: 56.25em) {
+    .main-container {
+      grid-template-rows: 70vh repeat(7, min-content); } }
+  @media screen and (max-width: 75rem) {
+    .main-container {
+      grid-template-rows: 80vh repeat(7, min-content); } }
 
 .header {
   grid-column: full-start / full-end;
@@ -232,9 +241,9 @@ html {
     box-shadow: 0 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 4rem;
     border-bottom-right-radius: 4rem; }
-    @media screen and (max-width: 75rem) {
+    @media screen and (max-width: 37.5em) {
       .food__type-box {
-        height: 30rem; } }
+        height: 28rem; } }
   .food__type {
     width: 100%;
     height: 100%;
@@ -259,12 +268,15 @@ html {
   .stay:not(:last-child) {
     margin-bottom: 5rem; }
   .stay__img-box {
-    height: 40rem; }
+    height: 41rem; }
+    @media screen and (max-width: 37.5em) {
+      .stay__img-box {
+        height: 35rem; } }
   .stay__img {
     width: 100%;
     height: 100%; }
   .stay__info {
-    height: 40rem;
+    height: 41rem;
     background-color: #f0f0f0;
     font-size: 1.6rem;
     display: flex;
@@ -306,7 +318,7 @@ html {
   list-style: none;
   font-style: italic;
   color: #777;
-  margin: 0 2rem; }
+  margin: 0 1rem; }
   .list__items {
     padding: .4rem 0;
     display: inline-block; }
@@ -422,38 +434,35 @@ html {
 .transportation {
   grid-column: col-start / col-end; }
   .transportation__container__1 {
-    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.9) 0%, rgba(50, 205, 50, 0.9) 50%, transparent 50%), url(../images/trans1.jpg);
+    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.96) 0%, rgba(50, 205, 50, 0.96) 50%, transparent 50%), url(../images/transp3.jpg);
     width: 100%;
-    height: 35rem;
-    background-position: right;
+    background-position: center;
     background-size: cover; }
     .transportation__container__1:not(last-child) {
       margin-bottom: 5rem; }
     @media screen and (max-width: 56.25em) {
       .transportation__container__1 {
-        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/trans1.jpg); } }
+        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/transp3.jpg); } }
   .transportation__container__2 {
-    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.9) 0%, rgba(50, 205, 50, 0.9) 50%, transparent 50%), url(../images/trans4.jpg);
+    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.96) 0%, rgba(50, 205, 50, 0.96) 50%, transparent 50%), url(../images/transp2.jpg);
     width: 100%;
-    height: 35rem;
     background-position: center;
     background-size: cover; }
     .transportation__container__2:not(last-child) {
       margin-bottom: 5rem; }
     @media screen and (max-width: 56.25em) {
       .transportation__container__2 {
-        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/trans1.jpg); } }
+        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/transp2.jpg); } }
   .transportation__container__3 {
-    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.9) 0%, rgba(50, 205, 50, 0.9) 50%, transparent 50%), url(../images/trans5.jpg);
+    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.96) 0%, rgba(50, 205, 50, 0.96) 50%, transparent 50%), url(../images/transp1.jpg);
     width: 100%;
-    height: 35rem;
-    background-position: center;
+    background-position: bottom;
     background-size: cover; }
     .transportation__container__3:not(last-child) {
       margin-bottom: 5rem; }
     @media screen and (max-width: 56.25em) {
       .transportation__container__3 {
-        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/trans1.jpg); } }
+        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/transp1.jpg); } }
   .transportation__text-box {
     color: #fff;
     font-size: 1.6rem;
@@ -461,7 +470,8 @@ html {
     width: 50%; }
     @media screen and (max-width: 56.25em) {
       .transportation__text-box {
-        width: 100%; } }
+        width: 100%;
+        text-align: center; } }
   .transportation__heading {
     text-transform: uppercase;
     font-size: 3rem;

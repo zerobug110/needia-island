@@ -8,24 +8,6 @@
     background-size: cover;
     background-position: center;
     position: relative;
-
-    @include respond(phone) {
-      
-    }
-
-    @include respond(tab-port) {
-      
-    }
-    @include respond(tab-land) {
-      
-    }
-    @include respond(big-desktop) {
-      
-    }
-
-
-
-    
     
 }
 
