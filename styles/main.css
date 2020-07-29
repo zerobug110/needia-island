@@ -36,7 +36,7 @@ html {
   grid-template-rows: 100vh repeat(7, min-content); }
   @media screen and (max-width: 37.5em) {
     .main-container {
-      grid-template-rows: 60vh repeat(7, min-content); } }
+      grid-template-rows: 96vh repeat(7, min-content); } }
   @media screen and (max-width: 56.25em) {
     .main-container {
       grid-template-rows: 70vh repeat(7, min-content); } }

@@ -41,7 +41,7 @@ html{
     grid-template-rows: 100vh repeat(7, min-content);
 
     @include respond(phone) {
-        grid-template-rows: 60vh repeat(7, min-content);
+        grid-template-rows: 96vh repeat(7, min-content);
     }
     @include respond(tab-port) {
         grid-template-rows: 70vh repeat(7, min-content);
