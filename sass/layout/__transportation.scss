@@ -1,4 +1,5 @@
 .transportation {
+    font-family: 'roboto';
     grid-column: col-start / col-end;
 
     &__container__1 {
@@ -78,6 +79,7 @@
         }
     }
 
+
     &__text-box {
         color:  #fff;
         font-size: 1.6rem;
@@ -92,7 +94,7 @@
 
     &__heading {
         text-transform: uppercase;
-        font-size: 3rem;
-        font-weight: 400;
+        font-size: 2.3rem;
+        font-weight: 550;
     }
 }

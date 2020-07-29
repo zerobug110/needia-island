@@ -20,12 +20,11 @@
     &__info{
         font-size: 2rem;
         text-transform: uppercase;
-        font-weight: 200;
+        font-weight: 400;
         background-image: linear-gradient(to right, rgb(50, 182, 205),rgb(50, 205, 50));
         -webkit-background-clip: text;
         color: transparent;
         text-transform: capitalize;
-        font-weight: 200;
     }
     &__icon {
         width: 10rem;

@@ -16,7 +16,7 @@ html{
     // this defines what 1rem is
     font-size: 62.5%; //1 rem = 10px/16px = 62.5%;
 
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     font-weight: 400;
     color: #333;
@@ -40,14 +40,5 @@ html{
     grid-template-columns: [full-start] 5rem 1fr repeat(8,[col-start] minmax(min-content, 14rem))[col-end] 1fr 5rem[ful-end];
     grid-template-rows: 100vh repeat(7, min-content);
 
-    @include respond(phone) {
-        grid-template-rows: 96vh repeat(7, min-content);
-    }
-    @include respond(tab-port) {
-        grid-template-rows: 70vh repeat(7, min-content);
-    }
-    @include respond(tab-land) {
-        grid-template-rows: 80vh repeat(7, min-content);
-    }
 }
 
