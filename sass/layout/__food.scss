@@ -56,6 +56,10 @@
         color:#32b6cde6;
         border-bottom: .1rem solid rgba(0, 0, 0, 0.219);
 
+        @include respond (tab-land) {
+            font-size: 1.6em;
+        }
+
     }
 }
 

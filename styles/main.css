@@ -20,7 +20,7 @@
 html {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
-  line-height: 1.7;
+  line-height: 1.6;
   font-weight: 400;
   color: #333; }
   @media screen and (max-width: 75rem) {
@@ -78,8 +78,8 @@ html {
   margin-top: 15rem; }
 
 .heading-primary {
-  font-size: 5rem;
-  font-weight: 50;
+  font-size: 6rem;
+  font-weight: 500;
   text-transform: uppercase;
   word-spacing: 1rem;
   letter-spacing: .1rem;
@@ -129,6 +129,11 @@ html {
     width: 10rem;
     height: 10rem;
     fill: #32b6cde6; }
+  .services__text {
+    font-size: 1.6rem; }
+    @media screen and (max-width: 75rem) {
+      .services__text {
+        font-size: 1.2em; } }
 
 .margin-top {
   margin-top: 10rem; }
@@ -141,7 +146,7 @@ html {
   color: transparent;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  width: 25rem; }
+  width: 26rem; }
 
 .composition {
   grid-column: col-start 1 / col-end;
@@ -156,7 +161,11 @@ html {
   .composition__img-box {
     object-fit: cover; }
   .composition__text {
-    color: #777; }
+    color: #777;
+    font-size: 1.6rem; }
+    @media screen and (max-width: 75rem) {
+      .composition__text {
+        font-size: 1.2em; } }
   .composition__img {
     width: 100%;
     height: 100%;
@@ -198,10 +207,14 @@ html {
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
     background-color: #37bed6;
     padding: 1rem 0;
     color: #fff; }
+    @media screen and (max-width: 75rem) {
+      .place__heading {
+        font-size: 2em;
+        font-weight: 600; } }
 
 .plan {
   grid-column: col-start 1 / col-end; }
@@ -246,6 +259,9 @@ html {
     text-transform: uppercase;
     color: #32b6cde6;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.219); }
+    @media screen and (max-width: 75rem) {
+      .food__name {
+        font-size: 1.6em; } }
 
 .accommodation {
   grid-column: col-start 1 / col-end; }
@@ -271,6 +287,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+    @media screen and (max-width: 37.5em) {
+      .stay__info {
+        height: 30em; } }
 
 .rating {
   display: flex;
@@ -304,10 +323,14 @@ html {
   -webkit-background-clip: text; }
 
 .list {
+  font-size: 1.6rem;
   list-style: none;
   font-style: italic;
   color: #444;
   margin: 0 1rem; }
+  @media screen and (max-width: 75rem) {
+    .list {
+      font-size: 1.1em; } }
   .list__items {
     padding: .4rem 0;
     display: inline-block; }
@@ -323,6 +346,9 @@ html {
   .price > * {
     border-right: .1rem solid #f0f0f0;
     padding: 0 4rem; }
+    @media screen and (max-width: 56.25em) {
+      .price > * {
+        padding: 0 1.2em; } }
   .price__text {
     display: block; }
   .price__amount {
@@ -421,7 +447,6 @@ html {
   grid-row: 1 / span 3; }
 
 .transportation {
-  font-family: 'roboto';
   grid-column: col-start / col-end; }
   .transportation__container__1 {
     background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.96) 0%, rgba(50, 205, 50, 0.96) 50%, transparent 50%), url(../images/transp3.jpg);
@@ -430,7 +455,7 @@ html {
     background-size: cover; }
     .transportation__container__1:not(last-child) {
       margin-bottom: 5rem; }
-    @media screen and (max-width: 56.25em) {
+    @media screen and (max-width: 75rem) {
       .transportation__container__1 {
         background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/transp3.jpg); } }
   .transportation__container__2 {
@@ -440,7 +465,7 @@ html {
     background-size: cover; }
     .transportation__container__2:not(last-child) {
       margin-bottom: 5rem; }
-    @media screen and (max-width: 56.25em) {
+    @media screen and (max-width: 75rem) {
       .transportation__container__2 {
         background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/transp2.jpg); } }
   .transportation__container__3 {
@@ -450,9 +475,9 @@ html {
     background-size: cover; }
     .transportation__container__3:not(last-child) {
       margin-bottom: 5rem; }
-    @media screen and (max-width: 56.25em) {
+    @media screen and (max-width: 75rem) {
       .transportation__container__3 {
-        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/transp1.jpg); } }
+        background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 100%), url(../images/transp1.jpg); } }
   .transportation__text-box {
     color: #fff;
     font-size: 1.6rem;
@@ -461,11 +486,24 @@ html {
     @media screen and (max-width: 56.25em) {
       .transportation__text-box {
         width: 100%;
-        text-align: center; } }
+        text-align: center;
+        font-size: 1.2em;
+        padding: 1rem; } }
+    @media screen and (max-width: 75rem) {
+      .transportation__text-box {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 1rem; } }
   .transportation__heading {
     text-transform: uppercase;
     font-size: 2.3rem;
-    font-weight: 550; }
+    font-weight: 530; }
+  .transportation__paragraph {
+    font-size: 1.6rem; }
+    @media screen and (max-width: 75rem) {
+      .transportation__paragraph {
+        font-size: 1.6em; } }
 
 .contact {
   grid-column: col-start 1 / col-end; }
@@ -511,8 +549,13 @@ html {
     border-bottom: .1rem solid #fff;
     align-items: center;
     outline: none; }
+    @media screen and (max-width: 75rem) {
+      .form > *:not(:last-child) {
+        font-size: 1.8em;
+        font-family: 'Poppins', sans-serif; } }
   .form > *::placeholder {
-    color: #fff; }
+    color: #fff;
+    font-family: 'poppins', sans-serif; }
   .form__heading {
     color: #fff;
     font-size: 2.7rem;
@@ -541,11 +584,15 @@ html {
   border-bottom: .1rem solid #fff;
   color: #555;
   font-size: 1.6rem;
-  font-family: sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 .textarea::placeholder {
   font-size: 1.6rem;
-  font-family: sans-serif; }
+  font-family: 'Poppins', sans-serif; }
+  @media screen and (max-width: 75rem) {
+    .textarea::placeholder {
+      font-family: 'popping', sans-serif;
+      font-size: 1em; } }
 
 .social-media {
   width: 20rem;
@@ -573,6 +620,7 @@ html {
   background-size: cover;
   background-position: center; }
   .footer__list {
+    font-size: 1.6rem;
     list-style: none;
     text-decoration: none;
     text-align: center; }
@@ -582,11 +630,17 @@ html {
       color: #fff; }
       .footer__list-item:hover {
         color: #32b6cde6; }
+    @media screen and (max-width: 75rem) {
+      .footer__list {
+        font-size: 1.2em; } }
   .footer__header {
     font-size: 2rem;
     color: #32b6cde6;
     text-transform: uppercase;
     margin-bottom: 1rem; }
+    @media screen and (max-width: 75rem) {
+      .footer__header {
+        font-size: 1.2em; } }
     .footer__header:hover {
       color: #fff;
       transform: scale(1.1); }

@@ -11,8 +11,6 @@
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(7, 5rem);
-
-        
   
     }
 
@@ -23,6 +21,11 @@
 
     &__text {
         color: #777;
+        font-size: 1.6rem;
+        
+        @include respond (tab-land) {
+            font-size: 1.2em;
+        }
     }
 
     &__img {

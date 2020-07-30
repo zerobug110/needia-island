@@ -57,10 +57,16 @@
         border-bottom: .1rem solid #fff;
         align-items: center;
         outline: none;
+        
+        @include respond(tab-land) {        
+            font-size: 1.8em;
+            font-family: 'Poppins', sans-serif;
+        }
     }
 
     & >*::placeholder {
         color: #fff;
+        font-family: 'poppins', sans-serif;
     }
 
     &__heading {
@@ -97,12 +103,17 @@
     border-bottom: .1rem solid #fff;
     color: #555;
     font-size: 1.6rem;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .textarea::placeholder {
     font-size: 1.6rem;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    @include respond(tab-land) {
+        font-family: 'popping', sans-serif;
+        font-size: 1em;
+    }
 }
 
 .social-media {

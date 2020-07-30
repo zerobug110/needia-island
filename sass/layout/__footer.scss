@@ -15,6 +15,7 @@
 
 
     &__list {
+        font-size: 1.6rem;
         list-style: none;
         text-decoration: none;
         text-align: center;
@@ -28,6 +29,9 @@
                 
             }
         }
+        @include respond(tab-land) {
+            font-size: 1.2em;
+        }
     }
 
     &__header {
@@ -35,6 +39,10 @@
         color: #32b6cde6;
         text-transform: uppercase;
         margin-bottom: 1rem;
+
+        @include respond(tab-land) {
+            font-size: 1.2em;
+        }
 
         &:hover {
             color: #fff;

@@ -37,6 +37,10 @@
         flex-direction: column;
         justify-content: space-between;
 
+        @include respond (phone) {
+            height: 30em;
+        }
+
     }
 
 }
@@ -85,10 +89,15 @@
 }
 
 .list {
+    font-size: 1.6rem;
     list-style: none;
     font-style: italic;
     color: #444;
     margin: 0 1rem;
+
+    @include respond (tab-land) {
+        font-size: 1.1em;
+    }
 
     &__items {
         padding: .4rem 0;
@@ -112,6 +121,11 @@
     & > * {
         border-right: .1rem solid #f0f0f0;
         padding: 0 4rem;
+
+        @include respond (tab-port) {
+            padding: 0 1.2em;
+            
+        }
     }
 
     &__text {

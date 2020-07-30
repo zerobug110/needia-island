@@ -11,7 +11,7 @@
 
     
 
-
+    
     &__container {
         border-radius: .1rem;
         color: #777;
@@ -30,6 +30,12 @@
         width: 10rem;
         height: 10rem;
         fill: #32b6cde6;
+    }
+    &__text {
+        font-size: 1.6rem;
+        @include respond(tab-land) {
+            font-size: 1.2em;
+        }
     }
 }   
 
