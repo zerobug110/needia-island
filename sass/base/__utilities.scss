@@ -11,4 +11,9 @@
     text-transform: uppercase;
     margin-bottom: 2rem;
     width: 26rem;
+
+    @include respond (tab-land) {
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
 }

@@ -20,11 +20,12 @@
     }
 
     &__text {
-        color: #777;
+        color: #666;
         font-size: 1.6rem;
-        
+
         @include respond (tab-land) {
             font-size: 1.2em;
+            text-align: center;
         }
     }
 

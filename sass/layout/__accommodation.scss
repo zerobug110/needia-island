@@ -166,6 +166,8 @@
 
     @include respond(phone) {
         grid-template-rows: repeat(6, 3vh);
+        grid-gap: 1rem;
+        padding: 1rem;
     }
 
     @include respond(tab-land) {
