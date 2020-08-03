@@ -654,8 +654,7 @@ html {
       .footer__header {
         font-size: 1.2em; } }
     .footer__header:hover {
-      color: #fff;
-      transform: scale(1.1); }
+      color: #fff; }
 
 .footer-nav {
   display: grid;
