@@ -36,22 +36,21 @@
             align-items: center;
             justify-content: space-evenly;
             
-            font-size: 2.3rem;
+            font-size: 3rem;
             position: absolute;
-            top: -100rem;
+            clip-path: circle(10rem at 90% -15%);
             height: 100%;
             width: 100%;
             z-index: 2;
             pointer-events: none;
             background-color: #32b6cd;
-            transition: all  .3s;
+            transition: all  .8s;
         }
 
-        &.show {
-            top: 1;
-            
-        }
+    }
 
+    &__show {
+        clip-path: circle(115rem at 90% -15%);
 
     }
 
@@ -79,7 +78,7 @@
     height: 5rem;
     background-color: #fff;
     margin-left: 2rem;
-
+    z-index: 99;
     @include respond (tab-land) {
         margin-top: 3rem;
     } 
@@ -133,6 +132,8 @@
     text-decoration: none;
     font-size: 1.6rem;
 }
+
+
 
 
 

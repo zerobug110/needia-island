@@ -67,17 +67,17 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        font-size: 2.3rem;
+        font-size: 3rem;
         position: absolute;
-        top: -100rem;
+        clip-path: circle(10rem at 90% -15%);
         height: 100%;
         width: 100%;
         z-index: 2;
         pointer-events: none;
         background-color: #32b6cd;
         transition: all  .3s; } }
-    .nav-bar__items.show {
-      top: 1; }
+  .nav-bar__show {
+    clip-path: circle(115rem at 90% -15%); }
   .nav-bar__links:link, .nav-bar__links::before, .nav-bar__links::after, .nav-bar__links:visited {
     text-decoration: none;
     color: #fff;
@@ -94,7 +94,8 @@ html {
   width: 5rem;
   height: 5rem;
   background-color: #fff;
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  z-index: 99; }
   @media screen and (max-width: 75rem) {
     .logo {
       margin-top: 3rem; } }
