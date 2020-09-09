@@ -18,9 +18,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3rem;
 
     @include respond (tab-land) {
         align-items: flex-start;
+        margin-top: 0;
 
     }
 
@@ -31,6 +33,7 @@
         justify-content: space-around;
         list-style: none;
         
+        
         @include respond (tab-land) {
             flex-direction: column;
             align-items: center;
@@ -38,13 +41,15 @@
             
             font-size: 3rem;
             position: absolute;
+            position: fixed;
             clip-path: circle(10rem at 90% -15%);
             height: 100%;
             width: 100%;
-            z-index: 2;
+            z-index: 90;
             pointer-events: none;
             background-color: #32b6cd;
-            transition: all  .8s;
+            transition: all  .4s;
+
         }
 
     }
@@ -148,6 +153,7 @@
     outline: none;
     cursor: pointer;
     border: .2rem solid #fff;
+    transition: all .2s;
 
     &:hover {
         background-color: #fff;
