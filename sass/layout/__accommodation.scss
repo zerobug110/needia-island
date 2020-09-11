@@ -13,13 +13,35 @@
     margin-bottom: 5rem;
     
     }
+
+    &__img-1 {
+        position: absolute;
+
+        &:nth-child(1) {
+            left: 0;
+
+        }
+        &:nth-child(2) {
+            left: 100%;
+
+        }
+        &:nth-child(3) {
+            left: 200%;
+
+        }
+    }
     
     &__img-box {
         height: 41rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
 
         @include respond(phone) {
             height: 35rem;
         }
+
     }
 
 

@@ -333,8 +333,20 @@ html {
   border-radius: 10rem; }
   .stay:not(:last-child) {
     margin-bottom: 5rem; }
+  .stay__img-1 {
+    position: absolute; }
+    .stay__img-1:nth-child(1) {
+      left: 0; }
+    .stay__img-1:nth-child(2) {
+      left: 100%; }
+    .stay__img-1:nth-child(3) {
+      left: 200%; }
   .stay__img-box {
-    height: 41rem; }
+    height: 41rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden; }
     @media screen and (max-width: 37.5em) {
       .stay__img-box {
         height: 35rem; } }
