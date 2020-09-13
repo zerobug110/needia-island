@@ -16,6 +16,8 @@
 
     &__img-1 {
         position: absolute;
+        transform: translateX(-100%);
+        transition: all .2s ease-in-out;
 
         &:nth-child(1) {
             left: 0;
@@ -37,6 +39,7 @@
         align-items: center;
         position: relative;
         overflow: hidden;
+
 
         @include respond(phone) {
             height: 35rem;
