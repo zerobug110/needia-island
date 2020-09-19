@@ -50,95 +50,61 @@
 }
 
 .slider-1 {
-    animation: slider-1 50s infinite;
+    animation: slider-1 20s infinite ease-out;
     background-image: url(../images/bedroom3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 .slider-2 {
-    animation: slider-2 50s infinite;
+    animation: slider-2 20s infinite ease-out;
     background-image: url(../images/bedroom3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 @keyframes slider-1 {
-    10% {
-        background-image: url(../images/home-slider1.jpg);
+    0% {
+        background-image: url(../images/slider1.jpg);
         background-size: cover;
-       
     }
-    20% {
-        background-image: url(../images/home-slider2.jpg);
+
+    35% {
+        background-image: url(../images/slider2.jpg);
         background-size: cover;
-       
     }
-    30% {
-        background-image: url(../images/home-slider3.jpg);
+
+    65% {
+        background-image: url(../images/slider3.jpg);
+        background-size: cover;  
+    }
+
+    100% {
+        background-image: url(../images/slider4.jpg);
         background-size: cover;
-       
-    }
-    40% {
-        background-image: url(../images/home-slider4.jpg);
-        background-size: cover;
-       
-    }
-    50% {
-        background-image: url(../images/home-slider5.jpg);
-        background-size: cover;
-       
-    }
-    60% {
-        background-image: url(../images/home-slider6.jpg);
-        background-size: cover;
-       
-    }
-    70% {
-        background-image: url(../images/home-slider7.jpg);
-        background-size: cover;
-       
-    }
-    
+    }   
 }
 
 @keyframes slider-2 {
     10% {
-        background-image: url(../images/home-slider8.jpg);
-        background-size: cover;
-       
+        background-image: url(../images/slider5.jpg);
+        background-size: cover;   
     }
-    20% {
-        background-image: url(../images/home-slider9.jpg);
-        background-size: cover;
-       
+
+    35% {
+        background-image: url(../images/slider6.jpg);
+        background-size: cover;   
     }
-    30% {
-        background-image: url(../images/home-slider10.jpg);
+
+    66% {
+        background-image: url(../images/slider7.jpg);
         background-size: cover;
-       
     }
-    40% {
-        background-image: url(../images/home-slider11.jpg);
-        background-size: cover;
-       
+
+    100% {
+        background-image: url(../images/slider8.jpg);
+        background-size: cover;  
     }
-    50% {
-        background-image: url(../images/home-slider12.jpg);
-        background-size: cover;
-       
-    }
-    60% {
-        background-image: url(../images/home-slider13.jpg);
-        background-size: cover;
-       
-    }
-    70% {
-        background-image: url(../images/home-slider14.jpg);
-        background-size: cover;
-       
-    }
-    
 }
 
 .rating {
