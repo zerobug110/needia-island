@@ -361,14 +361,12 @@ html {
 .slider-1 {
   animation: slider-1 20s infinite ease-out;
   background-image: url(../images/bedroom3.jpg);
-  background-size: cover;
-  background-position: left; }
+  background-size: cover; }
 
 .slider-2 {
   animation: slider-2 20s infinite ease-out;
   background-image: url(../images/bedroom3.jpg);
-  background-size: cover;
-  background-position: center; }
+  background-size: cover; }
 
 @keyframes slider-1 {
   0% {
