@@ -82,6 +82,7 @@ html {
   .nav-bar__show {
     clip-path: circle(135rem at 90% -15%); }
   .nav-bar__links:link, .nav-bar__links::before, .nav-bar__links::after, .nav-bar__links:visited {
+    font-size: 1.9rem;
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
@@ -173,7 +174,6 @@ html {
   text-align: center;
   -webkit-hyphens: auto; }
   .services__container {
-    border-radius: .1rem;
     color: #666; }
   .services__info {
     font-size: 2rem;
@@ -759,3 +759,12 @@ html {
   font-size: 3rem;
   font-weight: 200;
   margin: 0 auto; }
+
+.copy-right {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #32b6cde6;
+  transform: translateY(3rem);
+  text-transform: capitalize;
+  opacity: .8;
+  margin-top: 2rem; }
