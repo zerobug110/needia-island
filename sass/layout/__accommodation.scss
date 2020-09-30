@@ -50,61 +50,53 @@
 }
 
 .slider-1 {
-    animation: slider-1 20s infinite ease-out;
-    background-image: url(../images/bedroom3.jpg);
+    animation: slider-1 20s infinite ease-in-out;
+    background-image: url(../images/slider1.jpg);
     background-size: cover;
     
 }
 
 .slider-2 {
-    animation: slider-2 20s infinite ease-out;
-    background-image: url(../images/bedroom3.jpg);
+    animation: slider-2 20s infinite ease-in-out;
+    background-image: url(../images/slider5.jpg);
     background-size: cover;
   
 }
 
 @keyframes slider-1 {
     0% {
-        background-image: url(../images/slider1.jpg);
-        background-size: cover;
-    }
-
-    35% {
         background-image: url(../images/slider2.jpg);
         background-size: cover;
     }
 
-    65% {
+    50% {
         background-image: url(../images/slider3.jpg);
-        background-size: cover;  
+        background-size: cover;
     }
 
     100% {
         background-image: url(../images/slider4.jpg);
-        background-size: cover;
-    }   
+        background-size: cover;  
+    }
+
 }
 
 @keyframes slider-2 {
-    10% {
+    0% {
         background-image: url(../images/slider5.jpg);
         background-size: cover;   
     }
 
-    35% {
+    50% {
         background-image: url(../images/slider6.jpg);
         background-size: cover;   
     }
 
-    66% {
+    100% {
         background-image: url(../images/slider7.jpg);
         background-size: cover;
     }
 
-    100% {
-        background-image: url(../images/slider8.jpg);
-        background-size: cover;  
-    }
 }
 
 .rating {
