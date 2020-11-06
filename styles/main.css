@@ -43,7 +43,7 @@ html {
 
 .header {
   grid-column: full-start / full-end;
-  background-image: linear-gradient(to right, rgba(50, 182, 205, 0.9), rgba(50, 205, 50, 0.9)), url(../images/background.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../images/holiday.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -63,7 +63,8 @@ html {
     width: 70rem;
     display: flex;
     justify-content: space-around;
-    list-style: none; }
+    list-style: none;
+    font-size: 1.6rem; }
     @media screen and (max-width: 75rem) {
       .nav-bar__items {
         flex-direction: column;
@@ -82,7 +83,7 @@ html {
   .nav-bar__show {
     clip-path: circle(135rem at 90% -15%); }
   .nav-bar__links:link, .nav-bar__links::before, .nav-bar__links::after, .nav-bar__links:visited {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
@@ -95,7 +96,7 @@ html {
       text-transform: uppercase; } }
 
 .logo {
-  width: 7rem;
+  width: 5rem;
   height: 6rem;
   margin-left: 2rem;
   z-index: 99; }
@@ -126,7 +127,7 @@ html {
   margin-bottom: .5rem; }
 
 .text-box {
-  color: #fff;
+  color: #32b6cd;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,8 +135,8 @@ html {
   margin-top: 30vh; }
 
 .heading-primary {
-  font-size: 6rem;
-  font-weight: 500;
+  font-size: 4rem;
+  font-weight: 550;
   text-transform: uppercase;
   word-spacing: 1rem;
   letter-spacing: .1rem;
@@ -148,22 +149,22 @@ html {
 .btn:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  border-radius: .2rem; }
+  border-radius: 5rem; }
 
 .book-now {
   background-color: transparent;
-  color: #fff;
+  color: #32b6cd;
   font-size: 1.6rem;
   text-transform: capitalize;
   padding: 1rem 5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  border: .2rem solid #fff;
+  border: .2rem solid #32b6cd;
   transition: all .2s; }
   .book-now:hover {
-    background-color: #fff;
-    color: var(--sea-green); }
+    background-color: #32b6cd;
+    color: #fff; }
 
 .services {
   grid-column: col-start 1 / col-end;
@@ -288,7 +289,7 @@ html {
   grid-column: 1 / -1;
   font-size: 1.6rem;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(50, 182, 205, 0.9), rgba(50, 205, 50, 0.9)), url(../images/food-table2.jpg);
+  background-image: linear-gradient(to right, rgba(50, 182, 205, 0.9), rgba(50, 205, 50, 0.902)), url(../images/food-table2.jpg);
   background-position: center;
   background-size: cover;
   padding: 5rem 0;
@@ -570,7 +571,7 @@ html {
       .transportation__container__2 {
         background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.99) 0%, rgba(50, 205, 50, 0.99) 100%, transparent 50%), url(../images/transp2.jpg); } }
   .transportation__container__3 {
-    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.96) 0%, rgba(50, 205, 50, 0.96) 50%, transparent 50%), url(../images/transp1.jpg);
+    background-image: linear-gradient(105deg, rgba(50, 182, 205, 0.98) 0%, rgba(50, 205, 50, 0.98) 50%, transparent 50%), url(../images/transp1.jpg);
     width: 100%;
     background-position: bottom;
     background-size: cover; }

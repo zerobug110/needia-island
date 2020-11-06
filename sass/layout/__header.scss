@@ -1,9 +1,9 @@
 .header {
     grid-column: full-start / full-end;
-    background-image: linear-gradient(to right,
-                        rgba(50, 182, 205, 0.9),
-                        rgba(50, 205, 50, 0.9)),
-                    url(../images/background.jpg);
+    background-image: radial-gradient(
+                        rgba(0, 0, 0, 0.9),
+                        rgba(0, 0, 0, 0.8)),
+                    url(../images/holiday.jpg);
                     
     background-size: cover;
     background-position: center;
@@ -32,6 +32,7 @@
         display: flex;
         justify-content: space-around;
         list-style: none;
+        font-size: 1.6rem;
         
         
         @include respond (tab-land) {
@@ -62,7 +63,7 @@
     &__links::before,
     &__links::after,
     &__links:visited {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         text-decoration: none;
         color: #fff;
         text-transform: capitalize;
@@ -79,7 +80,7 @@
 }
 
 .logo {
-    width: 7rem;
+    width: 5rem;
     height: 6rem;
     margin-left: 2rem;
     
@@ -123,7 +124,7 @@
 }
 
 .text-box {
-    color: #fff;
+    color: #32b6cd;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,8 +133,8 @@
 }
 
 .heading-primary {
-    font-size: 6rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 550;
     text-transform: uppercase;
     word-spacing: 1rem;
     letter-spacing: .1rem;
@@ -147,24 +148,24 @@
 .btn:visited{  
     text-decoration: none;
     font-size: 1.6rem;
-    border-radius: .2rem;
+    border-radius: 5rem;
 }
 
 .book-now {
     background-color: transparent;
-    color: #fff;
+    color: #32b6cd;
     font-size: 1.6rem;
     text-transform: capitalize;
     padding: 1rem 5rem;
     border: none;
     outline: none;
     cursor: pointer;
-    border: .2rem solid #fff;
+    border: .2rem solid #32b6cd;
     transition: all .2s;
 
     &:hover {
-        background-color: #fff;
-        color: var(--sea-green);
+        background-color: #32b6cd;
+        color: #fff;
     }
 }
 
