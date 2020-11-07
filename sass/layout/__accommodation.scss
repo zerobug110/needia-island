@@ -53,7 +53,6 @@
     animation: slider-1 10s infinite ease-in-out;
     background-image: url(../images/slider1.jpg);
     background-size: cover;
-    
 }
 
 .slider-2 {
@@ -129,16 +128,17 @@
     font-size: 3rem;
     font-weight: 200;
     background-image: linear-gradient(to right,
-                    rgba(50, 182, 205, 0.9),
-                    rgba(50, 205, 50, 0.9));
+    rgb(50, 182, 205),
+    rgb(50, 156, 205));
+
     color: transparent;
     -webkit-background-clip: text;
 }
 .excellent {
     text-transform: capitalize;
     background-image: linear-gradient(to right,
-                    rgba(50, 182, 205, 0.9),
-                    rgba(50, 205, 50, 0.9));
+                    rgb(50, 182, 205),
+                    rgb(50, 156, 205));
     color: transparent;
     -webkit-background-clip: text;
 
@@ -163,8 +163,9 @@
 
 .price {
     background-image: linear-gradient(to right,
-                    rgba(50, 182, 205, 0.9),
-                    rgba(50, 205, 50, 0.9));
+                    rgb(50, 182, 205),
+                    rgb(50, 156, 205));
+
     color: #fff;
     text-align: center;
     display: flex;
@@ -235,8 +236,9 @@
     }
 
     background-image: linear-gradient(to right,
-                        rgba(50, 182, 205, 0.9),
-                        rgba(50, 205, 50, 0.9));
+                    rgb(50, 182, 205),
+                    rgb(50, 156, 205));
+
     &__img-box {
 
     }

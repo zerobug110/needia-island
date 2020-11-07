@@ -20,9 +20,7 @@
         font-size: 2rem;
         text-transform: uppercase;
         font-weight: 500;
-        background-image: linear-gradient(to right, rgb(50, 182, 205),rgb(50, 205, 50));
-        -webkit-background-clip: text;
-        color: transparent;
+        color: #0e5594f2;
         text-transform: capitalize;
 
         @include respond(tab-port){
@@ -32,7 +30,7 @@
     &__icon {
         width: 10rem;
         height: 10rem;
-        fill: #32b6cde6;
+        fill: #2f9fb3e6;
     }
     &__text {
         font-size: 1.6rem;

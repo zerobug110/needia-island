@@ -27,11 +27,15 @@
         width: 100%;
         height: 100%;
         font-size: 1.6rem;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
         text-transform: uppercase;
         color: #fff;
-        background-color: #37bed6;
+
+    background-image: linear-gradient(to right,
+                    rgb(50, 182, 205),
+                    rgb(50, 156, 205));
+
         padding: 1rem 0;
      
 
