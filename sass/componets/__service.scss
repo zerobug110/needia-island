@@ -20,18 +20,20 @@
         font-size: 2rem;
         text-transform: uppercase;
         font-weight: 500;
-        color: #0e5594f2;
+        color: #329ccd;
         text-transform: capitalize;
 
         @include respond(tab-port){
             font-size: 1.4em;
         }
     }
+    
     &__icon {
         width: 10rem;
         height: 10rem;
-        fill: #2f9fb3e6;
+        fill: #329ccd;
     }
+
     &__text {
         font-size: 1.6rem;
         @include respond(tab-land) {
