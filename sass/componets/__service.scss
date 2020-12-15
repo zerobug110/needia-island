@@ -13,15 +13,16 @@
 
     
     &__container {
-        color: #666;
+        color: #555;
     }
 
     &__info{
         font-size: 2rem;
         text-transform: uppercase;
         font-weight: 500;
-        color: #329ccd;
+        color: #096f9e;
         text-transform: capitalize;
+        //text-shadow: 0 .1rem .2rem rgba(0,0,0, .3);
 
         @include respond(tab-port){
             font-size: 1.4em;

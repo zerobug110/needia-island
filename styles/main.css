@@ -171,12 +171,12 @@ html {
   text-align: center;
   -webkit-hyphens: auto; }
   .services__container {
-    color: #666; }
+    color: #555; }
   .services__info {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 500;
-    color: #329ccd;
+    color: #096f9e;
     text-transform: capitalize; }
     @media screen and (max-width: 56.25em) {
       .services__info {
@@ -197,7 +197,7 @@ html {
 .section-heading {
   font-size: 2.8rem;
   font-weight: 550;
-  color: #329ccd;
+  color: #096f9e;
   text-transform: uppercase;
   margin-bottom: 2rem;
   width: 26rem; }
@@ -219,7 +219,7 @@ html {
   .composition__img-box {
     object-fit: cover; }
   .composition__text {
-    color: #666;
+    color: #555;
     font-size: 1.6rem; }
     @media screen and (max-width: 75rem) {
       .composition__text {
@@ -315,7 +315,7 @@ html {
     background-color: #fff;
     padding: .5rem 0;
     text-transform: uppercase;
-    color: #329ccd;
+    color: #096f9e;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.219); }
     @media screen and (max-width: 75rem) {
       .food__name {
@@ -398,7 +398,7 @@ html {
     padding: .1rem .8rem;
     border-radius: .2rem; }
   .review__no {
-    color: #777; }
+    color: #555; }
 
 .vip {
   text-transform: uppercase;
@@ -419,7 +419,8 @@ html {
   list-style: none;
   font-style: italic;
   color: #444;
-  margin: 0 1rem; }
+  margin: 0 2.7rem;
+  word-spacing: .1rem; }
   @media screen and (max-width: 75rem) {
     .list {
       font-size: 1.1em; } }

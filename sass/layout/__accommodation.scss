@@ -14,7 +14,6 @@
     
     }
 
-    
     &__img-box {
         height: 41rem;
         display: flex;
@@ -118,7 +117,7 @@
     }
 
     &__no {
-        color: #777;
+        color: #555;
     }
 }
 
@@ -149,7 +148,8 @@
     list-style: none;
     font-style: italic;
     color: #444;
-    margin: 0 1rem;
+    margin: 0 2.7rem;
+    word-spacing: .1rem;
 
     @include respond (tab-land) {
         font-size: 1.1em;
