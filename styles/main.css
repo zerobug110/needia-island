@@ -18,7 +18,8 @@ html {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   font-weight: 400;
-  color: #333; }
+  color: #333;
+  scroll-behavior: smooth; }
   @media screen and (max-width: 75rem) {
     html {
       font-size: 56.25%; } }
@@ -56,11 +57,12 @@ html {
       align-items: flex-start;
       margin-top: 0; } }
   .nav-bar__items {
-    width: 70rem;
+    width: 75rem;
     display: flex;
     justify-content: space-around;
     list-style: none;
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    margin-right: 2rem; }
     @media screen and (max-width: 75rem) {
       .nav-bar__items {
         flex-direction: column;

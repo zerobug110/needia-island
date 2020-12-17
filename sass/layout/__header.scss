@@ -29,11 +29,12 @@
 
     
     &__items {
-        width: 70rem;
+        width: 75rem;
         display: flex;
         justify-content: space-around;
         list-style: none;
         font-size: 1.6rem;
+        margin-right: 2rem;
         
         
         @include respond (tab-land) {
