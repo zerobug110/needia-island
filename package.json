@@ -9,7 +9,7 @@
   "author": "muhammed bojang",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass": "^1.26.1"
   },
   "dependencies": {
